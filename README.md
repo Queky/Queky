@@ -44,4 +44,4 @@ I'm backend-focused (Java, Spring Boot, event-driven microservices) and comforta
 
 **Off the keyboard:** video games, Android tinkering, and science-fiction books.
 
-**Find me:** [queky.es](https://queky.es) · inaki19san@gmail.com
+**Find me:** [queky.es](https://queky.es)
