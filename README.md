@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://queky.es"><img src="banner.svg" alt="Iñaki Sánchez · Software Engineer · Payments & Growth · Bilbao" width="100%"></a>
+  <a href="https://queky.es"><img src="banner.svg" alt="Iñaki Sánchez · Software Engineer · Payments & Growth" width="100%"></a>
 </div>
 
 ### Hi, I'm Iñaki
