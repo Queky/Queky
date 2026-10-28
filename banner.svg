@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" shape-rendering="crispEdges" role="img" aria-label="Iñaki Sánchez · Software Engineer · Payments &amp; Growth">
+  <style>
+    .star { fill: #eaf3ff; animation: twinkle 3s steps(3) infinite; }
+    .s2 { animation-delay: .7s; } .s3 { animation-delay: 1.4s; } .s4 { animation-delay: 2.1s; }
+    @keyframes twinkle { 0%, 100% { opacity: .25; } 50% { opacity: .9; } }
+    .plane { animation: fly 14s linear infinite; }
+    .plane2 { animation: fly2 22s linear infinite; animation-delay: -9s; }
+    @keyframes fly { from { transform: translate(-80px, 0); } to { transform: translate(980px, 0); } }
+    @keyframes fly2 { from { transform: translate(980px, 0); } to { transform: translate(-80px, 0); } }
+    .blink { animation: blink 1s steps(2) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .title { font: 700 44px "Press Start 2P", "Courier New", monospace; fill: #eaf3ff; letter-spacing: 2px; }
+    .title tspan { fill: #ffcc33; }
+    .sub { font: 600 20px "Courier New", monospace; fill: #4cc2ff; letter-spacing: 1px; }
+    .hint { font: 600 14px "Courier New", monospace; fill: #b3cbea; letter-spacing: 2px; }
+    @media (prefers-reduced-motion: reduce) { .star, .plane, .plane2, .blink { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050e1f"/>
+      <stop offset="1" stop-color="#0a1a33"/>
+    </linearGradient>
+    <g id="p">
+      <rect x="12" y="0" width="4" height="4"/><rect x="0" y="4" width="4" height="4"/><rect x="12" y="4" width="8" height="4"/>
+      <rect x="0" y="8" width="36" height="4"/><rect x="12" y="12" width="8" height="4"/><rect x="12" y="16" width="4" height="4"/>
+    </g>
+  </defs>
+  <rect width="900" height="220" fill="url(#sky)"/>
+  <g>
+    <rect class="star" x="40" y="30" width="3" height="3"/><rect class="star s2" x="130" y="170" width="3" height="3"/>
+    <rect class="star s3" x="210" y="52" width="3" height="3"/><rect class="star s4" x="300" y="190" width="3" height="3"/>
+    <rect class="star" x="380" y="22" width="3" height="3"/><rect class="star s3" x="470" y="200" width="3" height="3"/>
+    <rect class="star s2" x="560" y="40" width="3" height="3"/><rect class="star s4" x="640" y="180" width="3" height="3"/>
+    <rect class="star" x="720" y="60" width="3" height="3"/><rect class="star s2" x="800" y="26" width="3" height="3"/>
+    <rect class="star s3" x="860" y="150" width="3" height="3"/><rect class="star s4" x="20" y="120" width="3" height="3"/>
+    <rect class="star s2" x="880" y="96" width="3" height="3"/><rect class="star" x="90" y="80" width="3" height="3"/>
+  </g>
+  <g class="plane"><g transform="translate(0,34)" fill="#b3cbea"><use href="#p"/><rect class="blink" x="16" y="0" width="4" height="4" fill="#ff5d8f"/></g></g>
+  <g class="plane2"><g transform="translate(0,202) scale(-0.6,0.6)" fill="#8fb0d9"><use href="#p"/></g></g>
+  <text class="title" x="450" y="110" text-anchor="middle">IÑAKI <tspan>SÁNCHEZ</tspan></text>
+  <text class="sub" x="450" y="148" text-anchor="middle">Software Engineer · Payments &amp; Growth · Bilbao</text>
+  <text class="hint" x="450" y="186" text-anchor="middle">PRESS START ▸ QUEKY.ES</text>
+</svg>
