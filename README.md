@@ -4,7 +4,7 @@
 
 ### Hi, I'm Iñaki
 
-I'm a software engineer in Bilbao with 8+ years of experience. For the last 7 I've built **payments, invoicing and fraud-prevention systems** for Lookiero & Outfittery, a subscription fashion company that operates across Europe.
+I'm a software engineer with 8+ years of experience. For the last 7 I've built **payments, invoicing and fraud-prevention systems** for Lookiero & Outfittery, a subscription fashion company that operates across Europe.
 
 I'm backend-focused (Java, Spring Boot, event-driven microservices) and comfortable on the frontend with React and React Native. Before that, I programmed a PlayStation 4 game.
 
